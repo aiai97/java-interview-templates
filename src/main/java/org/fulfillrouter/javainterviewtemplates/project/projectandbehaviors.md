@@ -29,3 +29,19 @@ Answer: I'm good at breaking complex problems into smaller parts. I like tracing
 Q58. What do you do when you don't know the answer?
 
 Answer: I clarify the problem, check reliable documentation, and test my assumptions. I prefer to verify the behavior rather than make unsupported assumptions.
+
+Q97. How do you describe your role in a project you delivered?
+
+Answer: I explain the goal, my specific responsibilities, the key decisions I made, and the outcome. I distinguish my contributions from the team's work and use concrete results where possible.
+
+Q98. How do you evaluate a technical trade-off?
+
+Answer: I start with the requirements and constraints, compare options across reliability, complexity, cost, and maintainability, then explain the decision and its risks. I revisit it if assumptions or requirements change.
+
+Q99. How do you communicate a technical risk to a non-technical stakeholder?
+
+Answer: I describe the likely impact in terms of users, delivery, or cost, explain the uncertainty in plain language, and present practical options with their trade-offs. I also make a clear recommendation when the evidence supports one.
+
+Q100. How do you prioritize when several tasks are urgent?
+
+Answer: I compare impact, urgency, dependencies, and risk, then agree on priorities with the relevant stakeholders. I communicate what will be delayed and reassess as new information becomes available.

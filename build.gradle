@@ -27,3 +27,17 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+def registerExampleTask = { String taskName, String exampleClass ->
+    tasks.register(taskName, JavaExec) {
+        group = 'examples'
+        description = "Run ${exampleClass}"
+        classpath = sourceSets.main.runtimeClasspath
+        mainClass = exampleClass
+    }
+}
+
+registerExampleTask('runCoreJavaExamples', 'org.fulfillrouter.javainterviewtemplates.examples.CoreJavaExamples')
+registerExampleTask('runCollectionExamples', 'org.fulfillrouter.javainterviewtemplates.examples.CollectionExamples')
+registerExampleTask('runConcurrencyExamples', 'org.fulfillrouter.javainterviewtemplates.examples.ConcurrencyExamples')
+registerExampleTask('runInfrastructureExamples', 'org.fulfillrouter.javainterviewtemplates.examples.InfrastructureExamples')
